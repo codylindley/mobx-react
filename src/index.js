@@ -5,6 +5,8 @@ import ReactDOM from 'react-dom';
 import TodoListView from "./TodoListView.js";
 import registerServiceWorker from "./registerServiceWorker";
 
+import "./index.css";
+
 const todoStore = title => {
 	return {
 		@observable title: title,
